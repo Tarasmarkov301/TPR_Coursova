@@ -19,7 +19,7 @@ namespace CoursovaSaleOfNail.Controlers
         {
             this.dBConn = dBConn;
             this.dataCheck = dataCheck;
-            this.rWClient = rWClient;
+           this.rWClient = rWClient;
         }
         public ViewResult Registration(string error) {
             return View("/Views/Clients/registration.cshtml", new RegistrationModel(error));

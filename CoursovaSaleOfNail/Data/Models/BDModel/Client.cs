@@ -5,12 +5,16 @@ using System.Threading.Tasks;
 
 namespace CoursovaSaleOfNail.Data.Models.BDModel
 {
-    /*public class Client
+    public class Client
     {
-        public string name { get; set; }
-        public Client(string name)
+        public string name;
+        public string phone;
+        public string pass;
+        public Client(string name, string phone, string pass)
         {
             this.name = name;
+            this.pass = pass;
+            this.phone = phone;
         }
-    }*/
+    }
 }

@@ -13,11 +13,10 @@ namespace CoursovaSaleOfNail.Controlers
     {
         public ClientController(iReadNail allNail, iDBConn bDConn, iRWSale rWSale)
         {
-            this.allNail = allNail;
+           
             this.bDConn = bDConn;
             this.rWSale = rWSale;
         }
-        private readonly iReadNail allNail;
         private readonly iDBConn bDConn;
         private readonly iRWSale rWSale;
         public string getCookieName()
